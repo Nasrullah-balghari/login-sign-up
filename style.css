@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(./font/Poppins-Regular.ttf);
+}
+body {
+    background-color:#3498db;
+    font-family: Poppins-Regular;
+    
+}
+.main_div {
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 7px 9px 25px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 9px 25px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 25px -3px rgba(0,0,0,0.75);
+   margin-bottom: 30px;
+}
+.text_container {
+    margin: 15px;
+    flex-wrap: wrap;
+}
+.input_container input {
+   
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.userInfo input {
+    
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.chexkbox {
+    padding: 10px;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+.button button {
+    
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    border-style: none;
+    color: white;
+    flex-wrap: wrap;
+}
+.button button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    
+}
+.login_main {
+    background-color: white;
+    width: 40%;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 7px 9px 25px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 7px 9px 25px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 9px 25px -3px rgba(0,0,0,0.75);
+margin-bottom: 30px;
+}
+.input input {
+    padding: 10px;
+    margin: 10%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    display: block;
+}
+.login_button button {
+    padding: 10px 85px 10px 85px ;
+    flex-wrap: wrap;
+    display: flex;
+}
+.sign_up a{
+    background-color: white;
+    padding: 15px;
+    text-decoration: none;
+    /* margin-top: 5%; */
+}
+.sign_up {
+    /* text-align: center; */
+   margin-top: 3%;
+  
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1121px){
+    .main_div {
+        width: 50%;
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .main_div {
+        width: 60%;
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 619px){
+    .main_div {
+        width: 70%;
+        height: 700px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .main_div {
+        width: 100%;
+        height: 600px;
+        margin-top: 20%;
+        
+    }
+    .input_container input {
+        display: block;
+    }
+    .userInfo input {
+        display: block;
+    }
+}
+@media only screen and (max-width: 560px){
+    .login_main {
+       width: 100%;
+       margin-top: 20%;
+    }
+}
